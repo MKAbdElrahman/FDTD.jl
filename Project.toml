@@ -1,0 +1,13 @@
+name = "FDTD"
+uuid = "1bd516e1-4384-4bd0-b3c2-0df293c6e8e0"
+authors = ["Mohamed Kamal AbdElrahman"]
+version = "0.1.0"
+
+[compat]
+julia = "1.6"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
